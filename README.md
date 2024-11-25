@@ -8,10 +8,14 @@
 
 ---
 ### *Contents*
-##### | [ Loading the library ](#LibrarySection)
+##### | [ Starting GUI ](#LibrarySection)
 ##### | [ Adding a frame ](#WindowSection)
 ##### | [ Adding a tab ](#TabSection)
-##### | [ **Code Example** ](#ExampleSection)
+##### | [ Adding a label ](#LabelSection)
+##### | [ Adding a button ](#ButtonSection)
+##### | [ Adding a toggle ](#ToggleSection)
+##### | [ Adding a KeyBind ](#KeyBindSection)
+##### **|** [ *GUI Example* ](#ExampleSection)
 ---
 
 
