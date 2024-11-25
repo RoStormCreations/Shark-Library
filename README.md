@@ -1,33 +1,51 @@
 # <span style="color:#353fdf; font-family: Arial;">Shark</span> Library
+---
 ### <span style="color:#353fdf">*Version* **0.1**</span>
 ##### made by @re_sistance
-1. [ Description. ](#desc)
-2. [ Usage tips. ](#usage)
 
-<a name="desc"></a>
-## 1. Making a window
 
-sometext
+<!-- Table of Contents -->
 
-<a name="usage"></a>
-## 2. Usage tips
+---
+### *Contents*
+##### | [ Booting the library ](#LibrarySection)
+##### | [ Making A Window ](#TabSection)
+##### | [ **Code Example** ](#Example)
+---
 
-sometext
+
+<!-- Library Section-->
+
+<a name="LibrarySection"></a>
+
 ## Booting the Library
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RoStormCreations/Shark-Library/refs/heads/main/V01.lua"))()
 ```
+
+
+<!-- Window Section -->
+
 ## Making a window
 ```lua
 local Main = Library:Create("Shark","GameNameHere")
 ```
-- Shark: Title of your UI.
-- GameNameHere: The name of the game its for.
+
+```
+Shark: Title of your UI.
+GameNameHere: The name of the game its for.
+```
+
+
+<!-- Tab Section -->
 
 ## Making a tab
 ```lua
 local Preview = Main:CreateSection("Preview")
 ```
+
+
+<!-- Example Section -->
 
 ## Example
 ```lua
