@@ -1,6 +1,13 @@
-# <span style="color:#353fdf; font-family: Arial;">Shark</span> Library
+<html>
+<head>
+</head>
+<body>
+<h2><span style="color:#353fdf; font-family: Arial;">Shark</span> Library</h2>
+</body>
+</html>
+
 ---
-### <span style="color:#353fdf">*Version* **0.1**</span>
+### Version **0.0.6**
 ##### made by @re_sistance
 
 
@@ -15,6 +22,8 @@
 ##### | [ Adding a button ](#ButtonSection)
 ##### | [ Adding a toggle ](#ToggleSection)
 ##### | [ Adding a KeyBind ](#KeyBindSection)
+##### | [ Adding a TextBox ](#TextBoxSection)
+##### | [ Adding a Slider ](#SliderSection)
 ##### **|** [ *GUI Example* ](#ExampleSection)
 ---
 
