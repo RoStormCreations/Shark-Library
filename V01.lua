@@ -1,11 +1,11 @@
-local FuzkiLib = {}
+local SharkLib = {}
 
-function FuzkiLib:Create(name, gameName)
+function SharkLib:Create(name, gameName)
     name = name or "Name"
     gameName = gameName or "Game Name"
-    local InsideFuzki = {}
+    local InsideShark = {}
 
-    local Fuzki = Instance.new("ScreenGui")
+    local Shark = Instance.new("ScreenGui")
     local MainLib = Instance.new("Frame")
     local headerLine = Instance.new("Frame")
     local mainCorner = Instance.new("UICorner")
@@ -16,14 +16,15 @@ function FuzkiLib:Create(name, gameName)
     local title = Instance.new("TextLabel")
     local elements = Instance.new("Frame")
     local elementsCorner = Instance.new("UICorner")
+	
     local elementFolder = Instance.new("Folder")
 
-    Fuzki.Name = "name"
-    Fuzki.Parent = game.CoreGui
-    Fuzki.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    Shark.Name = "name"
+    Shark.Parent = game.CoreGui
+    Shark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     MainLib.Name = "MainLib"
-    MainLib.Parent = Fuzki
+    MainLib.Parent = Shark
     MainLib.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     MainLib.Position = UDim2.new(0.357499987, 0, 0.162544176, 0)
     MainLib.Size = UDim2.new(0, 469, 0, 484)
@@ -123,7 +124,7 @@ function FuzkiLib:Create(name, gameName)
     elementFolder.Name = "elementFolder"
     elementFolder.Parent = elements
 
-    function InsideFuzki:CreateSection(tab)
+    function InsideShark:CreateSection(tab)
         tab = tab or "tab"
         local tabButton = Instance.new("TextButton")
         local tabCorner = Instance.new("UICorner")
@@ -583,6 +584,6 @@ function FuzkiLib:Create(name, gameName)
         end
     return Items
     end
-    return InsideFuzki
+    return InsideShark
 end
-return FuzkiLib
+return SharkLib
