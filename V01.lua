@@ -25,7 +25,7 @@ function SharkLib:Create(name, gameName)
 
     MainLib.Name = "MainLib"
     MainLib.Parent = Shark
-    MainLib.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainLib.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainLib.Position = UDim2.new(0.357499987, 0, 0.162544176, 0)
     MainLib.Size = UDim2.new(0, 469, 0, 484)
 
